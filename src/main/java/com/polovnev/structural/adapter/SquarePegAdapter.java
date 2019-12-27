@@ -8,6 +8,7 @@ public class SquarePegAdapter extends RoundPeg {
         this.squarePeg = squarePeg;
     }
 
+    @Override
     public double getRadius() {
         return squarePeg.getWidth() * Math.sqrt(2) / 2;
     }
